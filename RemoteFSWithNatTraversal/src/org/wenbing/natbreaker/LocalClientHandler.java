@@ -51,17 +51,17 @@ public class LocalClientHandler {
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
-                    /*try {
+                    try {
                         RemoteServerHandler.remoteServer.close();
                     } catch (IOException e) {
                         e.printStackTrace();
-                    }*/
+                    }
                 }
-                /*try {
+                try {
                     clientSocket.close();
                 } catch (IOException e) {
                     e.printStackTrace();
-                } */
+                } 
 
             }
             break;
